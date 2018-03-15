@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/breynolds/.nvm/versions/node/v6.3.1/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add mrbuilder mrbuilder-preset-app
+
+PATH: 
+  /Users/breynolds/.jenv/shims:/Users/breynolds/.nvm/versions/node/v6.3.1/bin:/usr/local/var/pyenv/shims:/usr/local/bin:/usr/local/sbin:/Users/breynolds/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/breynolds/.jenv/shims:/usr/local/var/pyenv/shims:/usr/local/sbin:/Users/breynolds/bin:/Users/breynolds/Projects/stash/NEBULA/wrapper:/Users/breynolds/.rvm/bin:/Users/breynolds/Projects/stash/NEBULA/wrapper:/Users/breynolds/.rvm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  6.3.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "movie-list",
+    "version": "1.0.0",
+    "description": "Interview question for react.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/brycereynolds/movieList.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/brycereynolds/movieList/issues"
+    },
+    "homepage": "https://github.com/brycereynolds/movieList#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://artifacts.netflix.com/api/npm/npm-netflix/mrbuilder: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123749:19)
+      at tryOnTimeout (timers.js:228:11)
+      at Timer.listOnTimeout (timers.js:202:5)

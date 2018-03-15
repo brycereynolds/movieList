@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "mrbuilder-preset-app",
+  ],
+  "plugins": [
+    "mrbuilder-plugin-stylus",
+  ],
+  // test
+  "env": {
+    "test": {
+      "plugins": [
+        "mrbuilder-plugin-karma",
+      ]
+    }
+  }
+}
