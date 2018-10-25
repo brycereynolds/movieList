@@ -1,10 +1,7 @@
 import React from 'react';
 import './styles/index.styl';
 
-import movies from './data/movies';
-import languages from './data/languages';
-
-export default class App extends React.PureComponent{
+export default class App extends React.Component{
   render(){
     return (
       <div>
